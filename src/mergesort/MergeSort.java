@@ -17,7 +17,7 @@ static final int tam = 8;
         printArray(vetor, tam);
     }
     
-    public void merge(int vetor[], int inicio, int meio, int fim){
+    public static void merge(int vetor[], int inicio, int meio, int fim){
         int aux[] = new int[fim - inicio+1];
         int i = inicio, j = meio+1, k=0;
         while(i <= meio && j <= fim){
